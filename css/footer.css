@@ -1,14 +1,14 @@
 footer {
-  border-top: 3px solid black;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  height: 5em;
-  padding: 2em;
-  margin-top: 1em;
+  height: 5rem;
+  padding: 2rem;
   align-items: center;
+  background-color: var(--color_black);
+  margin: 0;
 }
 
-.social-media i {
-  font-size: 2em;
-  margin: 0 0.1em;
+footer p {
+  color: #fff;
 }

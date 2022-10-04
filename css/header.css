@@ -4,17 +4,17 @@ header {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  padding: 1em;
+  padding: 1rem;
 }
 
-.logo {
+#logo {
   display: block;
-  width: 4em;
+  width: 4rem;
   margin: 0;
 }
 
 #nav-button {
-  font-size: 2em;
+  font-size: 2rem;
 }
 nav {
   position: absolute;
@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 #nav-checkbox:checked ~ nav {
   display: flex;
@@ -47,13 +47,22 @@ nav a:hover {
 }
 
 @media (min-width: 800px) {
+  header {
+    padding: 2rem;
+  }
   nav {
+    position: inherit;
     display: flex;
     flex-direction: row;
-    top: 0;
+    top: 0px;
+    gap: 2rem;
   }
 
   #nav-button {
     display: none;
+  }
+
+  #logo {
+    width: 6rem;
   }
 }

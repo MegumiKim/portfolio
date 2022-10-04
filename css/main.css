@@ -1,0 +1,39 @@
+/* projects */
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* contact */
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* #projects {
+  background-color: var(--color_black);
+} */
+#contact p {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#about,
+#contact {
+  max-width: 600px;
+}
+
+@media (min-width: 800px) {
+  .projects-wrapper {
+    flex-direction: row;
+  }
+}

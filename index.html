@@ -19,11 +19,11 @@
       src="https://kit.fontawesome.com/175ecb4e25.js"
       crossorigin="anonymous"
     ></script>
-    <title>Projects | Megumi's Portfolio</title>
+    <title>Megumi's Portfolio</title>
   </head>
   <body>
     <header>
-      <a class="logo" href="index.html"
+      <a id="logo" href="index.html"
         ><img src="./img/MK_logo.png" alt="Megumi Kimura logo"
       /></a>
       <input type="checkbox" id="nav-checkbox" />
@@ -31,102 +31,128 @@
         >=</label
       >
       <nav>
-        <a href="#welcome" class="current">Projects</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <a href="#projects" class="current">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
     <main>
       <section id="welcome">
-        <h1>Hello World</h1>
-        <h2>welcome to my portfolio</h2>
+        <h1>Megumi Kimura</h1>
+        <!-- <h2>welcome to my portfolio.</h2> -->
+        <p>Welcome to my portfolio. </p>
         <p>I'm Megumi, a student in Front-end Development at Noroff.</p>
       </section>
       <section id="projects">
-        <h2>My Projects</h2>
-        <div class="three-columns">
-          <div class="card">
-            <img
-              src="/img/simplynatural_screen.webp"
-              alt="screenshot of Simply Natural homepage"
-            />
+        <h2>Recent Projects.</h2>
+        <div class="projects-wrapper">
+          <div class="project">
+            <a class="card" href="https://funny-boba-e7553f.netlify.app">
+              <img
+                src="/img/simplynatural_screen.webp"
+                alt="screenshot of Simply Natural homepage"
+              />
+            </a>
             <div class="card-text-wrapper">
-              <h3>Simply Natural</h3>
-              <p>Lifestyle Eco Blog</p>
-              <p class="tools">HTML | CSS | JS | Word Press REST API</p>
+              <div>
+                <h3>Simply Natural</h3>
+                <p>Lifestyle Eco Blog</p>
+              </div>
+              <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-MegumiKim.git"><i class="fa-brands fa-square-github" ></i></a>
             </div>
           </div>
-          <a class="card" href="https://gifted-hoover-253ce2.netlify.app/">
-            <img
+          <div class="project">
+            <a class="card" href="https://gifted-hoover-253ce2.netlify.app/">
+              <img
               src="/img/rainydays_screen.webp"
               alt="screenshot of Rainydays homepage"
-            />
-            <div class="card-text-wrapper">
-              <h3>Rainydays</h3>
-              <p>Outddor jacket online shop</p>
-              <p class="tools">HTML | CSS | JS | Word Press REST API</p>
-            </div>
-          </a>
-          <a class="card" href="https://cocky-hamilton-095306.netlify.app/">
-            <img
-              src="/img/CSM_screen.webp"
-              alt="screenshot of Community Science Museum homepage"
-            />
-            <div class="card-text-wrapper">
-              <h3>Community Science Museum</h3>
-              <p>Science museum website</p>
-              <p class="tools">HTML | CSS</p>
-            </div>
-          </a>
-          <a class="card" href="https://dazzling-biscotti-0cc424.netlify.app">
-            <img
-              src="/img/MMDB.webp"
-              alt="screenshot of Community Science Museum homepage"
-            />
-            <div class="card-text-wrapper">
-              <h3>My Movie Database</h3>
-              <p>Hobby project</p>
-              <p class="tools">HTML | CSS | JS</p>
-            </div>
-          </a>
+              />
+            </a>
+              <div class="card-text-wrapper">
+                <div>
+                  <h3>Rainydays</h3>
+                  <p>Outddor jacket online shop</p>
+                </div>
+                <a  href="https://github.com/Noroff-FEU-Assignments/cross-course-project-MegumiKim"><i class="fa-brands fa-square-github"></i></a>
+              </div>
+          </div>
+          <div class="project">
+            <a class="card" href="https://cocky-hamilton-095306.netlify.app/">
+              <img
+                src="/img/CSM_screen.webp"
+                alt="screenshot of Community Science Museum homepage"
+              />
+            </a>
+              <div class="card-text-wrapper">
+                <div>
+                  <h3>Community Science Museum</h3>
+                  <p>Science museum website</p>
+                </div>
+                <a href="https://github.com/MegumiKim/SP1_community_science_museum.git"><i class="fa-brands fa-square-github" ></i></a>
+              </div>
+          </div>
+
+          <div class="project">
+            <a class="card" href="https://dazzling-biscotti-0cc424.netlify.app">
+              <img
+                src="/img/MMDB.webp"
+                alt="screenshot of Community Science Museum homepage"
+              />
+            </a>
+              <div class="card-text-wrapper">
+                <div>
+                  <h3>My Movie Database</h3>
+                  <p>Hobby project</p>
+                </div>
+                <a href="https://github.com/MegumiKim/My-Movie-Database.git"><i class="fa-brands fa-square-github" ></i></a>
+                </div>
+              </div>
+          </div>
         </div>
+        <a href="#logo" class="up-btn">^</a>
       </section>
       <section id="about">
-        <h2>Little About me</h2>
-        <h3>Facts</h3>
-        <ul>
-          <li>I'm from Japan</li>
-          <li>I live near Oslo</li>
-        </ul>
-        <h3>Education</h3>
-        <ul>
-          <li>Front-end development at Noroff - Norway</li>
-          <li>MSc in Development Studies at MNBU - Norway</li>
-          <li>BSc in International law at Rikkyo Univ - Japan</li>
-        </ul>
-        <h3>Career</h3>
-        I have some 10 years of working experience from a range of industries.
-        <li>Client Service in Asset Management Business in Tokyo</li>
-        <li>
-          Corporate Access/Investor Relations in Stock Brokerage business in
-          India
-        </li>
-        <h3>Personal Interests</h3>
-        Besides being a geek, I am also a saxophonist and a Capoerista (or a
-        martial artist).
-
-        <p>
-          Please visit my linked in profile or contact me if you wat to find
-          more about me.
-        </p>
+        <h2>About.</h2>
+      <div>
+        <p>I'm Megumi, an aspiring front-end developer from Japan living near Oslo. </p>
+        <p>My goal is to create a better world with easier and more accessible websites for everyone.</p>
+      </div>
+        <div>
+          <h3>Education</h3>
+          <ul>
+            <li>Front-end development at Noroff - Norway (current)</li>
+            <li>MSc in International Development Studies at MNBU - Norway</li>
+            <li>BSc in International law at Rikkyo Univ - Japan</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Career</h3>
+          5 years of working experience from global financial services in India and Japan. I have also worked in shipping and IT security companies in Norway.
+        </div>
+        <div>
+        <h3>Tech skills</h3>
+          HTML | CSS | JS | WP | Python
+        </div>
+        <div>
+          <h3>Personal Interests</h3>
+          <p>Besides being a geek, I am also a saxophonist and a Capoerista (or a martial artist).
+          </p>
+        </div>
+        <a href="#logo" class="up-btn">^</a>
+      </section>
+      <section id="contact">
+        <h2>Contact.</h2>
+        <p>Please find more about me or get in touch:</p>
+        <div class="social-media">
+          <i class="fa-brands fa-square-github" href="https://github.com/MegumiKim"></i>
+          <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/kimuramegumi/"></i>
+        </div>
+        <p>kimuramegumi@gmail.com</p>
+        <a href="#logo" class="up-btn">^</a>
       </section>
     </main>
     <footer>
-      <p>Copyright Megumi Kimura</p>
-      <div class="social-media">
-        <i class="fa-brands fa-square-github" href=""></i>
-        <i class="fa-brands fa-linkedin"></i>
-      </div>
+      <p>Copyright &copy; 2022</p>
     </footer>
   </body>
 </html>
