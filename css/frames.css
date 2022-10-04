@@ -1,0 +1,12 @@
+.three-columns {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1em;
+}
+
+@media (min-width: 800px) {
+  .three-columns {
+    flex-direction: row;
+  }
+}
