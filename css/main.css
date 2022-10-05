@@ -33,6 +33,9 @@
 }
 
 @media (min-width: 800px) {
+  #welcome {
+    margin: 0;
+  }
   .projects-wrapper {
     flex-direction: row;
   }
