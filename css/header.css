@@ -13,9 +13,9 @@ header {
   margin: 0;
 }
 
-#nav-button {
+/* #nav-button {
   font-size: 2rem;
-}
+} */
 nav {
   position: absolute;
   top: 50px;
