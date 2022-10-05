@@ -28,17 +28,17 @@ nav {
   align-items: baseline;
 }
 
-#nav-checkbox,
+/* #nav-checkbox,
 nav {
   display: none;
-}
+} */
 
 nav a {
   padding: 0.5rem;
 }
-#nav-checkbox:checked ~ nav {
+/* #nav-checkbox:checked ~ nav {
   display: flex;
-}
+} */
 
 nav a:hover {
   font-style: italic;
@@ -52,15 +52,15 @@ nav a:hover {
   }
   nav {
     position: inherit;
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     top: 0px;
     gap: 2rem;
   }
 
-  #nav-button {
+  /* #nav-button {
     display: none;
-  }
+  } */
 
   #logo {
     width: 6rem;
