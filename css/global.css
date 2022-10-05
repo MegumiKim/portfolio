@@ -10,6 +10,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   min-height: 100vh;
   display: grid;
   grid-tremplate-rows: auto 1fr auto;

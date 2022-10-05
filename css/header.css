@@ -3,7 +3,7 @@ header {
   position: relative;
   align-items: center;
   justify-content: space-between;
-  text-align: center;
+  /* text-align: center; */
   padding: 1rem;
 }
 
@@ -52,7 +52,7 @@ nav a:hover {
   }
   nav {
     position: inherit;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     top: 0px;
     gap: 2rem;
