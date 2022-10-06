@@ -1,14 +1,11 @@
 footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 5rem;
-  padding: 2rem;
-  align-items: center;
-  background-color: var(--color_black);
-  margin: 0;
+  margin: 2rem 2rem 0 2rem;
+}
+footer p {
+  text-align: center;
+  margin: 2rem auto;
 }
 
-footer p {
-  color: #fff;
+hr {
+  width: 100%;
 }

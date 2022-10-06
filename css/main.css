@@ -1,6 +1,14 @@
 /* welcome */
+
 #welcome p {
   margin-left: 0.3em;
+}
+
+#welcome h2 {
+  text-align: right;
+  font-size: 3rem;
+  max-width: 50%;
+  margin-right: 0;
 }
 
 /* projects */
@@ -35,9 +43,10 @@ td {
   gap: 1rem;
 }
 
-/* #projects {
-  background-color: var(--color_black);
-} */
+.projects-wrapper {
+  gap: 3rem;
+  /* padding: 3rem; */
+}
 #contact p {
   text-align: center;
   margin: 1rem auto;
@@ -52,7 +61,7 @@ td {
   #welcome {
     margin: 0;
   }
-  .projects-wrapper {
+  /* .projects-wrapper {
     flex-direction: row;
-  }
+  } */
 }

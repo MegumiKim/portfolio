@@ -1,21 +1,39 @@
 .img-thumbnail {
   box-shadow: 0px 5px 10px rgb(230, 229, 229);
-
   transition: transform 0.3s ease-in-out;
+  flex: 2;
+}
+.github-project-link {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-top: 1em;
 }
 
+/* .github-project-link:nth-child(1), */
+.github-project-link:nth-child(3),
+.card:nth-child(2),
+.card:nth-child(4) {
+  text-align: right;
+  justify-content: end;
+}
+#left {
+  justify-content: start;
+}
 .card {
   margin: auto;
   padding: 0.5rem;
-  max-width: 350px;
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
+  gap: 2rem;
+  /* flex-direction: column; */
 }
 
 .card-text-wrapper {
-  padding: 1rem;
+  /* padding: 1rem; */
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   gap: 0.5rem;
 }
@@ -30,9 +48,6 @@
 .card-title:hover {
   text-decoration: underline;
 }
-.img-thumbnail img {
-  max-width: 100%;
-}
 
 .tools {
   font-size: 0.8rem;
@@ -43,16 +58,12 @@
   box-shadow: 0px 5px 10px rgb(188, 188, 188);
 }
 
-.github-project-link {
-  display: flex;
-  align-items: center;
-}
 .fa-brands:hover {
   transform: scale(1.05);
 }
 .fa-brands {
   font-size: 1.5rem;
-  transition: transform 0.1s ease-in-out;
+  /* transition: transform 0.1s ease-in-out; */
 }
 
 @media (min-width: 800px) {

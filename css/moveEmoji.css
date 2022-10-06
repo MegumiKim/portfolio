@@ -1,0 +1,28 @@
+.emoji,
+#welcome p {
+  display: inline-block;
+}
+
+h1:hover ~ .emoji {
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.fa-brands:hover {
+  animation-name: move;
+  animation-duration: 0.5s;
+  animation-iteration-count: 2s;
+}
