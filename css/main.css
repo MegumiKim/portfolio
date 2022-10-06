@@ -12,6 +12,12 @@
 }
 
 /* About */
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 td {
   padding-right: 1em;
   vertical-align: top;
@@ -37,11 +43,6 @@ td {
   margin: 1rem auto;
 }
 
-#about {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
 #about,
 #contact {
   max-width: 600px;
