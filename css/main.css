@@ -1,3 +1,8 @@
+/* welcome */
+#welcome p {
+  margin-left: 0.3em;
+}
+
 /* projects */
 .projects-wrapper {
   display: flex;
@@ -6,6 +11,16 @@
   gap: 0.5rem;
 }
 
+/* About */
+td {
+  padding-right: 1em;
+  vertical-align: top;
+}
+
+#about h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
 /* contact */
 
 .social-media {
