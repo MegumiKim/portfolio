@@ -21,7 +21,7 @@ h1:hover ~ .emoji {
   }
 }
 
-.fa-brands:hover {
+.social-media a:hover {
   animation-name: move;
   animation-duration: 0.5s;
   animation-iteration-count: 2s;
