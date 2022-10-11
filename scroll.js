@@ -4,27 +4,28 @@ scrollElements.forEach((el) => {
   el.style.opacity = 0;
 });
 
-const isElementInView = (el) => {
-  const elementTop = el.getBoundingClientRect().top;
+// function isElementInView(el) {
+//   const elementTop = el.getBoundingClientRect().top;
+//   if (
+//     elementTop <= (window.innerHeight || document.documentElement.clientHeight)
+//   );
+//   return true;
+// }
 
-  // if (
-  //   elementTop <= window.innerHeight ||
-  //   document.documentElement.clientHeight
-  // );
-  // return true;
+function isElementInView(el) {
+  const elementTop = el.getBoundingClientRect().top;
   return (
     elementTop <= (window.innerHeight || document.documentElement.clientHeight)
   );
-};
-
+}
 const displayScrollElement = (element) => {
   element.style.opacity = 1;
 };
 
-export const handleScroll = () => {
+export function handleScroll() {
   scrollElements.forEach((el) => {
     if (isElementInView(el, 100)) {
       displayScrollElement(el);
     }
   });
-};
+}

@@ -1,9 +1,8 @@
-@import url("variables.css");
-@import url("global.css");
-@import url("card.css");
-@import url("header.css");
-@import url("menu-btn.css");
-@import url("footer.css");
-@import url("frames.css");
-@import url("main.css");
-@import url("moveEmoji.css");
+@import url("./imports/variables.css");
+@import url("./imports/global.css");
+@import url("./imports/card.css");
+@import url("./imports/header.css");
+@import url("./imports/menu-btn.css");
+@import url("./imports/footer.css");
+@import url("./imports/main.css");
+@import url("./imports/moveEmoji.css");

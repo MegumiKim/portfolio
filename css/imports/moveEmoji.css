@@ -3,10 +3,10 @@
   display: inline-block;
 }
 
-h1:hover ~ .emoji {
+.emoji {
   animation-name: move;
   animation-duration: 0.5s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 5;
 }
 
 @keyframes move {
