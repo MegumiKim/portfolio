@@ -36,7 +36,7 @@ a {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   max-width: 50%;
   text-align: left;
@@ -105,6 +105,10 @@ section {
 @media (min-width: 800px) {
   * {
     font-size: 22px;
+  }
+
+  main {
+    padding: 0 3rem;
   }
   h1 {
     padding: 0;
