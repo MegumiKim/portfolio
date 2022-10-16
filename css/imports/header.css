@@ -28,6 +28,7 @@ nav {
   align-items: baseline;
   border: 1px solid black;
   transition: all 0.5s ease-in-out;
+  background-color: #fff;
 }
 
 /* #nav-checkbox,
