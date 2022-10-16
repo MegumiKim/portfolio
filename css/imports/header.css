@@ -3,7 +3,7 @@ header {
   position: relative;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   background-color: #fff;
 }
 
@@ -19,7 +19,7 @@ header {
 } */
 nav {
   position: absolute;
-  top: 45px;
+  top: 50px;
   right: 1rem;
   display: none;
   z-index: 1;
