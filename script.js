@@ -1,4 +1,4 @@
-import { handleScroll } from "./scroll.js";
+// import { handleScroll } from "./scroll.js";
 
 const menuBtn = document.querySelector(".menu-btn");
 const nav = document.querySelector("nav");
@@ -16,6 +16,6 @@ menuBtn.addEventListener("click", () => {
   }
 });
 
-window.addEventListener("scroll", () => {
-  handleScroll();
-});
+// window.addEventListener("scroll", () => {
+//   handleScroll();
+// });

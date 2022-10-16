@@ -30,12 +30,13 @@
   gap: 0.5rem;
 }
 
-.card-text-wrapper p {
+/* .card-text-wrapper p {
   font-size: 0.8rem;
-}
+} */
 
 .card-title {
   font-weight: bold;
+  font-size: 1.2rem;
 }
 .card-title:hover {
   text-decoration: underline;
