@@ -16,7 +16,8 @@
   display: flex;
   align-items: center;
   text-align: right;
-  margin-top: 1em;
+  margin-left: 1em;
+  /* margin-top: 1em; */
 }
 
 /* .github-project-link:nth-child(1), */
@@ -59,6 +60,11 @@
   /* transition: transform 0.1s ease-in-out; */
 }
 
+.project-title-wrap {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
 @media (min-width: 800px) {
   .card {
     flex-direction: row;
@@ -68,7 +74,7 @@
     order: 2;
   }
   .card:nth-child(even),
-  .card:nth-child(even) .github-project-link {
+  .card:nth-child(even) .project-title-wrap {
     text-align: right;
     justify-content: end;
   }
