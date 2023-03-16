@@ -5,9 +5,9 @@
 }
 
 #welcome h2 {
-  text-align: right;
-  max-width: 70%;
-  margin-right: 0;
+  text-align: end;
+  /* max-width: 70%;
+  margin-right: 0; */
 }
 
 /* projects */
@@ -15,7 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 3rem;
 }
 
 /* About */
@@ -28,8 +28,12 @@
 td {
   padding-right: 1em;
   vertical-align: top;
+  padding-bottom: 1rem;
 }
 
+td > p {
+  line-height: 1rem;
+}
 #about h3 {
   font-size: 1.2rem;
   margin-top: 1rem;
@@ -60,7 +64,7 @@ td {
   #welcome {
     margin: 0;
   }
-  /* .projects-wrapper {
+  .projects-wrapper {
     flex-direction: row;
-  } */
+  }
 }

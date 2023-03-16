@@ -13,10 +13,10 @@ body {
   width: 100%;
   scroll-behavior: smooth;
   min-height: 100vh;
+  overflow-x: hidden;
+  font-family: Roboto, sans-serif;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  overflow-x: hidden;
-  font-family: "Ubuntu", sans-serif;
 }
 main {
   max-width: 1200px;
@@ -34,10 +34,16 @@ a {
   cursor: pointer;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Rampart One", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+}
 h1 {
   font-size: 3rem;
   margin: 0;
-  max-width: 50%;
+  /* max-width: 50%; */
   text-align: left;
 }
 
@@ -75,7 +81,7 @@ li {
 section {
   display: block;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 5%;
   transition: all 1s ease-in-out;
   /* min-height: 90vh; */
 }
@@ -111,7 +117,7 @@ section {
   }
   h1 {
     padding: 0;
-    font-size: 8rem;
+    font-size: 6rem;
   }
 
   h2 {

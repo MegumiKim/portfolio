@@ -3,7 +3,7 @@
   padding: 0.5rem;
   max-width: 100%;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   flex-direction: column;
 }
 
@@ -20,8 +20,6 @@
   /* margin-top: 1em; */
 }
 
-/* .github-project-link:nth-child(1), */
-
 .card-text-wrapper {
   /* padding: 1rem; */
   flex: 1;
@@ -31,9 +29,10 @@
   gap: 0.5rem;
 }
 
-/* .card-text-wrapper p {
+.built-with {
   font-size: 0.8rem;
-} */
+  color: grey;
+}
 
 .card-title {
   font-weight: bold;
