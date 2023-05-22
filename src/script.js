@@ -15,7 +15,3 @@ menuBtn.addEventListener("click", () => {
     nav.style.display = "none";
   }
 });
-
-// window.addEventListener("scroll", () => {
-//   handleScroll();
-// });

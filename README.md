@@ -1,3 +1,8 @@
-# portfolio
-My Portfolio
-Display of my recent projects and my short bio / contact info. 
+# Megumi's Portfolio
+
+[demo site](https://megumikim.github.io/portfolio/)
+
+## Brief
+
+Welcome to My portfolio.
+Please checkout my recent dev projects.
