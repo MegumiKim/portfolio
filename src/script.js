@@ -1,4 +1,14 @@
 // import { handleScroll } from "./scroll.js";
+import projects from "./projects.js";
+import card from "./projectCard.js";
+
+const container = document.querySelector(".projects-wrapper");
+
+projects.forEach((project) => {
+  const projectCard = card(project);
+
+  container.innerHTML += projectCard;
+});
 
 const menuBtn = document.querySelector(".menu-btn");
 const nav = document.querySelector("nav");
