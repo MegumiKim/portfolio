@@ -8,16 +8,16 @@ const projects = [
     description: "React E-commerce demo site.",
     builtWith: "React | TailwindCSS | Dummy JSON API",
   },
-  {
-    category: "auction site",
-    name: "bid",
-    image: "../img/bid_screen.png",
-    url: "https://bid.megumi.no",
-    repo: "https://github.com/MegumiKim/bid.git",
-    description:
-      "Interactive auction platform where user can create listings and bid on other's listings.",
-    builtWith: "JS | Bootstrap | Saas",
-  },
+  // {
+  //   category: "auction site",
+  //   name: "bid",
+  //   image: "../img/bid_screen.png",
+  //   url: "https://bid.megumi.no",
+  //   repo: "https://github.com/MegumiKim/bid.git",
+  //   description:
+  //     "Interactive auction platform where user can create listings and bid on other's listings.",
+  //   builtWith: "JS | Bootstrap | Saas",
+  // },
   {
     category: "SPA",
     name: "Cipher",
