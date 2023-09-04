@@ -1,8 +1,19 @@
 const projects = [
   {
+    category: "Website",
+    name: "Čika Petar's",
+    image: "/img/barThumb.jpg",
+    url: "https://bar.megumi.no",
+    repo: "https://github.com/MegumiKim/cocktail.git",
+    description:
+      "Frontend project of Cocktail database where user can lookup cocktail recipes and get inspirations.",
+    builtWith:
+      "Sveltekit | TypeScript | Tailwind | Skeleton UI | Vite | TheCocktail DB",
+  },
+  {
     category: "e-commerce",
     name: "Max Value",
-    image: "../img/MaxValue.jpg",
+    image: "/img/MaxValue.jpg",
     url: "https://max-value.megumi.no",
     repo: "https://github.com/MegumiKim/maxvalue.git",
     description: "React E-commerce demo site.",
@@ -21,7 +32,7 @@ const projects = [
   {
     category: "SPA",
     name: "Cipher",
-    image: "../img/Cipher.png",
+    image: "/img/Cipher.png",
     url: "https://cipher.megumi.no",
     repo: "https://github.com/MegumiKim/cipher.git",
     description:
@@ -31,7 +42,7 @@ const projects = [
   {
     category: "Social Media site",
     name: "Howdy",
-    image: "../img/howdy_screen.jpg",
+    image: "/img/howdy_screen.jpg",
     url: "https://howdy.megumi.no",
     repo: "https://github.com/MegumiKim/howdy.git",
     description:
