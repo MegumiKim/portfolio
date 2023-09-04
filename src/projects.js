@@ -4,7 +4,7 @@ const projects = [
     name: "Čika Petar's",
     image: "/img/barThumb.jpg",
     url: "https://bar.megumi.no",
-    repo: "https://github.com/MegumiKim/cocktail.git",
+    repo: "https://github.com/MegumiKim/bar.git",
     description:
       "Frontend project of Cocktail database where user can lookup cocktail recipes and get inspirations.",
     builtWith:
