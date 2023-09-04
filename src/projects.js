@@ -6,7 +6,7 @@ const projects = [
     url: "https://bar.megumi.no",
     repo: "https://github.com/MegumiKim/bar.git",
     description:
-      "Frontend project of Cocktail database where user can lookup cocktail recipes and get inspirations.",
+      "Frontend project of cocktail database where user can lookup cocktail recipes and get inspirations from.",
     builtWith:
       "Sveltekit | TypeScript | Tailwind | Skeleton UI | Vite | TheCocktail DB",
   },

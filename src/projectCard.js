@@ -26,6 +26,7 @@ const card = (project) => {
       <p>
       ${project.description}
       </p>
+      <h4>Stack:</h4>
       <p>${project.builtWith}</p>
     </div>
   </div>
