@@ -1,5 +1,15 @@
 const projects = [
   {
+    category: "Open Source Project",
+    name: "Mollify",
+    image: "/img/mollify.jpg",
+    url: "https://mollify.noroff.dev/",
+    repo: "https://github.com/Fermain/-mollify",
+    description: "Educational Platform Open Source Project",
+    builtWith:
+      "Sveltekit | TypeScript | Tailwind | Skeleton UI | Vite | Open AI",
+  },
+  {
     category: "Website",
     name: "Čika Petar's",
     image: "/img/barThumb.jpg",
