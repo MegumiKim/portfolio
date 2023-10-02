@@ -1,23 +1,36 @@
 .card {
+  /* margin: auto;
+  padding: 0.5rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 3rem; */
+}
+
+.card-inner {
   margin: auto;
   padding: 0.5rem;
   max-width: 100%;
   display: flex;
-  gap: 2rem;
+  justify-content: space-between;
   flex-direction: column;
+  gap: 3rem;
 }
 
 .img-thumbnail {
-  box-shadow: 0px 5px 10px rgb(230, 229, 229);
   transition: transform 0.3s ease-in-out;
   flex: 2;
+  /* max-width: 700px; */
 }
 .github-project-link {
   display: flex;
   align-items: center;
   text-align: right;
-  margin-left: 1em;
-  /* margin-top: 1em; */
+}
+
+.project-title-wrap > p {
+  font-size: 0.8rem;
 }
 
 .card-text-wrapper {
@@ -29,11 +42,6 @@
   gap: 0.5rem;
 }
 
-.built-with {
-  font-size: 0.8rem;
-  color: grey;
-}
-
 .card-title {
   font-weight: bold;
   font-size: 1.5rem;
@@ -42,10 +50,21 @@
   text-decoration: underline;
 }
 
-.tools {
+.descriptions > *,
+.tools > * {
+  font-size: 0.8rem;
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+}
+
+.tools > * {
   font-size: 0.8rem;
 }
 
+.git-hub {
+  align-items: center;
+}
 .img-thumbnail:hover {
   transform: scale(1.05);
   box-shadow: 0px 5px 10px rgb(188, 188, 188);
@@ -59,25 +78,35 @@
   /* transition: transform 0.1s ease-in-out; */
 }
 
-.project-title-wrap {
-  display: flex;
-  /* justify-content: space-between; */
-}
-
 @media (min-width: 800px) {
-  .card {
+  .card-inner {
     flex-direction: row;
   }
   .card-title {
     font-size: 2rem;
   }
 
+  .card:nth-child(even) {
+    flex-direction: column;
+    margin: auto;
+    gap: 2rem;
+    color: #5a858c;
+    max-width: 100vw;
+    /* background-color: #fff; */
+    overflow-x: visible;
+  }
+
+  .card:nth-child(even) > * {
+    color: var(--color_blue);
+    color: #5a858c;
+  }
+
   .card:nth-child(even) .img-thumbnail {
     order: 2;
   }
-  .card:nth-child(even),
+  /* .card:nth-child(even),
   .card:nth-child(even) .project-title-wrap {
     text-align: right;
     justify-content: end;
-  }
+  } */
 }

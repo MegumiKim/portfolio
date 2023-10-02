@@ -5,7 +5,7 @@ const projects = [
     image: "/img/mollify.jpg",
     url: "https://mollify.noroff.dev/",
     repo: "https://github.com/Fermain/-mollify",
-    description: "Educational Platform Open Source Project",
+    description: "Open Source Project: Educational Platform",
     builtWith:
       "Sveltekit | TypeScript | Tailwind | Skeleton UI | Vite | Open AI",
   },
@@ -16,7 +16,7 @@ const projects = [
     url: "https://bar.megumi.no",
     repo: "https://github.com/MegumiKim/bar.git",
     description:
-      "Frontend project of cocktail database where user can lookup cocktail recipes and get inspirations from.",
+      "Frontend project of cocktail database where user can lookup cocktail recipes and get inspirations from",
     builtWith:
       "Sveltekit | TypeScript | Tailwind | Skeleton UI | Vite | TheCocktail DB",
   },
@@ -42,7 +42,7 @@ const projects = [
   {
     category: "SPA",
     name: "Cipher",
-    image: "/img/Cipher.png",
+    image: "/img/cipher.jpg",
     url: "https://cipher.megumi.no",
     repo: "https://github.com/MegumiKim/cipher.git",
     description:

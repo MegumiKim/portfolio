@@ -8,10 +8,6 @@
       name="description"
       content="Welcome to my portfolio. Please check out my projects."
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="icon" href="img/M.png" type="image/icon type" />
     <script
@@ -24,9 +20,6 @@
   <body>
     <header>
       <div class="logo"><a id="logo" href="index.html">MK</a></div>
-      <!-- <a id="logo" href="index.html"
-        ><img src="./img/MK_logo.png" alt="Megumi Kimura logo"
-      /></a> -->
       <div class="menu-btn"><div class="menu-btn__burger"></div></div>
       <nav>
         <a href="#projects">Projects</a>
@@ -36,11 +29,9 @@
     </header>
     <main>
       <section id="welcome">
-        <div class="container">
+        <div class="welcome-wrapper">
           <h1>Megumi Kimura</h1>
-          <h3>Frontend Developer</h3>
-          <!-- <p>Hi, I'm Megumi, an aspiring junior <b>frontend developer</b>.</p>
-          <div class="emoji">🚀</div> -->
+          <p class="title">Frontend Developer</p>
           <div class="social-media left">
             <a
               aria-label="link to github profile"
@@ -58,6 +49,12 @@
               ><i class="fa-solid fa-square-envelope"></i
             ></a>
           </div>
+
+          <p class="summary">
+            Aspiring frontend developer with passion in coding. Currently
+            pursuing a dream to become a web developer and finishing the 2nd
+            year in Frontend development at Noroff.
+          </p>
         </div>
       </section>
       <section class="scroll" id="projects">
@@ -68,11 +65,9 @@
       <section class="scroll" id="about">
         <h2>About.</h2>
         <div>
-          <p>
-            Aspiring frontend developer with passion in coding. Currently
-            pursuing a dream to become a web developer and finishing the 2nd
-            year in Frontend development at Noroff.
-          </p>
+          <h3>Tech stack</h3>
+          HTML | CSS | JS | TS | Svelte | React | Tailwind | Bootstrap | REST
+          APIs | Cypress | Jest
         </div>
         <div>
           <h3>Education</h3>
@@ -88,14 +83,14 @@
               <td>2013</td>
               <td>
                 <h4>NMBU</h4>
-                <p>MSc in International Development</p>
+                <p>M.A. International Development</p>
               </td>
             </tr>
             <tr>
               <td>2008</td>
               <td>
                 <h4>Rikkyo Univ</h4>
-                <p>BSc in International Law</p>
+                <p>B.A. International Law</p>
               </td>
             </tr>
           </table>
@@ -107,11 +102,7 @@
             India/Japan.
           </p>
         </div>
-        <div>
-          <h3>Tech stack</h3>
-          HTML | CSS | JS | TYpeScript | Svelte | React | Tailwind | Bootstrap |
-          REST APIs | Cypress | Jest
-        </div>
+
         <div>
           <h3>Personal Interests</h3>
           <p>

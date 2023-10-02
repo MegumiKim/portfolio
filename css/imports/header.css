@@ -5,7 +5,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
-  background-color: #fff;
+  background-color: var(--color_blue);
   z-index: 10;
 }
 
@@ -18,14 +18,14 @@ header {
   height: 50px;
   width: 50px;
   text-align: right;
-  border: solid 2px var(--color_black);
-  background-color: var(--color_black);
+  border: solid 2px #fff;
+  background-color: #fff;
 }
 
 #logo {
   position: absolute;
   right: 0;
-  color: #fff;
+  color: var(--color_blue);
 }
 
 .logo:hover {
@@ -33,7 +33,7 @@ header {
 }
 
 .logo:hover > #logo {
-  color: var(--color_black);
+  color: var(--color_blue);
 }
 
 nav {
@@ -47,7 +47,6 @@ nav {
   align-items: baseline;
   border: 1px solid black;
   transition: all 0.5s ease-in-out;
-  background-color: #fff;
 }
 
 nav a {
@@ -57,7 +56,7 @@ nav a {
 
 nav a:hover {
   font-style: italic;
-  background-color: var(--color_black);
+  background-color: var(--color_blue);
   color: #fff;
   /* transform: translateX(-1.1rem); */
 }
