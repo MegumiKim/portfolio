@@ -8,14 +8,15 @@
   gap: 1rem;
 }
 
+.title {
+  text-align: center;
+  margin: auto;
+}
+
 .summary {
   margin: auto;
   max-width: 500px;
   text-align: center;
-}
-
-.title {
-  text-align: end;
 }
 
 /* projects */
@@ -74,6 +75,10 @@ td > p {
     min-height: 50vh;
     display: flex;
   }
+  .title {
+    text-align: end;
+  }
+
   .projects-wrapper {
     flex-direction: row;
     gap: 8rem;

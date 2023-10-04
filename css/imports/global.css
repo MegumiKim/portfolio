@@ -41,6 +41,7 @@ a {
   justify-content: left;
 }
 h1 {
+  text-align: center;
   font-size: 3rem;
   margin: 0;
   /* max-width: 50%; */
@@ -87,6 +88,11 @@ section {
   /* min-height: 90vh; */
 }
 
+.fa-brands:hover,
+.fa-square-envelope:hover {
+  color: bisque;
+  font-size: 1.5rem;
+}
 .social-media i {
   font-size: 1.5rem;
   margin: 0 0.1rem;
@@ -108,6 +114,15 @@ section {
 .up-btn:hover {
   color: orange;
 }
+
+/* .scroll {
+  opacity: 0;
+}
+
+.in-view {
+  opacity: 1;
+} */
+
 @media (min-width: 800px) {
   * {
     font-size: 22px;

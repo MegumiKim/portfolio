@@ -2,12 +2,10 @@
 import projects from "./projects.js";
 import card from "./projectCard.js";
 
-const container = document.querySelector(".projects-wrapper");
-
+//Creates Projects
 projects.forEach((project) => {
   const projectCard = card(project);
-
-  container.innerHTML += projectCard;
+  document.querySelector(".projects-wrapper").innerHTML += projectCard;
 });
 
 const menuBtn = document.querySelector(".menu-btn");
@@ -25,3 +23,9 @@ menuBtn.addEventListener("click", () => {
     nav.style.display = "none";
   }
 });
+
+// Add a scroll event listener to trigger the handleScroll function
+// window.addEventListener("scroll", handleScroll());
+
+// Initial check when the page loads
+// handleScroll();
