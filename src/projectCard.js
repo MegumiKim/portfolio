@@ -24,12 +24,11 @@ const card = (project) => {
           <h4><i class="fa-solid fa-screwdriver-wrench" alt="tool icon"></i></h4>
           <p>${project.builtWith}</p>
         </div>
-        <div class="git-hub">
         <a aria-label="link to the project's github repo"
         class="github-project-link"
         href=${project.repo}
         ><i class="fa-brands fa-square-github"></i
-      ></a>GitHub Repo</div>
+      >Repo</a>
       </div>
     </div>
     </div>

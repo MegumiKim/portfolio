@@ -1,3 +1,9 @@
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
 /* welcome */
 .welcome-wrapper {
   display: flex;
@@ -22,7 +28,6 @@
 /* projects */
 .projects-wrapper {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   gap: 3rem;
 }
@@ -77,10 +82,5 @@ td > p {
   }
   .title {
     text-align: end;
-  }
-
-  .projects-wrapper {
-    flex-direction: row;
-    gap: 8rem;
   }
 }

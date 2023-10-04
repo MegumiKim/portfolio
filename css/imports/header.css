@@ -18,7 +18,6 @@ header {
   height: 50px;
   width: 50px;
   text-align: right;
-  border: solid 2px #fff;
   background-color: #fff;
 }
 
@@ -29,11 +28,7 @@ header {
 }
 
 .logo:hover {
-  background-color: #fff;
-}
-
-.logo:hover > #logo {
-  color: var(--color_blue);
+  background-color: bisque;
 }
 
 nav {
@@ -55,9 +50,8 @@ nav a {
 }
 
 nav a:hover {
-  font-style: italic;
   background-color: var(--color_blue);
-  color: #fff;
+  color: bisque;
   /* transform: translateX(-1.1rem); */
 }
 
