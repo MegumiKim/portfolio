@@ -1,31 +1,36 @@
 // import { handleScroll } from "./scroll.js";
+// import { setScrollVar, shrinkHeader } from "./scrollHandler.js";
 import projects from "./projects.js";
 import card from "./projectCard.js";
+import { toggleMenu } from "./menuBtn.js";
+import { scrollObserver } from "./scrollObervers.js";
 
+toggleMenu();
 //Creates Projects
 projects.forEach((project) => {
   const projectCard = card(project);
+
   document.querySelector(".projects-wrapper").innerHTML += projectCard;
 });
 
-const menuBtn = document.querySelector(".menu-btn");
-const nav = document.querySelector("nav");
-let menuOpen = false;
+// const projectThumbs = document.querySelectorAll(".img-thumbnail");
 
-menuBtn.addEventListener("click", () => {
-  if (!menuOpen) {
-    menuBtn.classList.add("open");
-    menuOpen = true;
-    nav.style.display = "flex";
-  } else {
-    menuBtn.classList.remove("open");
-    menuOpen = false;
-    nav.style.display = "none";
-  }
-});
+// projectThumbs.forEach((thumb, i) => {
+//   if (i % 2 === 0) {
+//     thumb.classList.add("from-left");
+//   } else {
+//     thumb.classList.add("from-right");
+//   }
+// });
 
-// Add a scroll event listener to trigger the handleScroll function
-// window.addEventListener("scroll", handleScroll());
+// const textWrappers = document.querySelectorAll(".card-text-wrapper");
 
-// Initial check when the page loads
-// handleScroll();
+// textWrappers.forEach((wrapper, i) => {
+//   if (i % 2 === 0) {
+//     wrapper.classList.add("from-right");
+//   } else {
+//     wrapper.classList.add("from-left");
+//   }
+// });
+
+scrollObserver();

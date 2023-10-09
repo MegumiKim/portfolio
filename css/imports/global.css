@@ -11,21 +11,20 @@
 
 html,
 body {
-  height: 100%;
   width: 100%;
   scroll-behavior: smooth;
-  min-height: 100vh;
   overflow-x: hidden;
   display: grid;
   grid-template-rows: auto 1fr auto;
   font-family: "Roboto Flex", sans-serif;
   background: var(--color_blue);
+  overflow-x: hidden;
 }
 
 img {
   width: 100%;
   height: auto;
-  /* aspect-ratio: attr(width) / attr(height); */
+  aspect-ratio: attr(width) / attr(height);
 }
 
 a {
@@ -43,8 +42,8 @@ h2 {
   font-size: 2rem;
   text-align: center;
   margin: 1rem;
-  /* text-decoration: underline; */
 }
+
 h3 {
   font-size: 1.5rem;
   margin: 1rem auto;
@@ -99,14 +98,6 @@ section {
   height: auto;
 }
 
-/* .scroll {
-  opacity: 0;
-}
-
-.in-view {
-  opacity: 1;
-} */
-
 @media (min-width: 800px) {
   * {
     font-size: 22px;
@@ -117,7 +108,7 @@ section {
   }
   h1 {
     padding: 0;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   h2 {

@@ -6,12 +6,16 @@
   justify-content: space-between;
   flex-direction: column;
   gap: 1rem;
+  /* display: grid;
+  grid-gap: 2em;
+  align-items: center;
+  grid-template-columns: minmax(1em, 1fr) repeat(2, 1em, 1fr); */
 }
 
 .img-thumbnail {
   transition: transform 0.3s ease-in-out;
   flex: 2;
-  /* max-width: 700px; */
+  max-width: 700px;
 }
 .github-project-link {
   display: flex;
