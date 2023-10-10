@@ -1,15 +1,13 @@
 import projects from "./projects.js";
-import card from "./projectCard.js";
 import { toggleMenu } from "./menuBtn.js";
 import { scrollObserver } from "./scrollObervers.js";
+import { postProject } from "./createProject.js";
 
 toggleMenu();
+scrollObserver();
 
 //Creates Projects
-projects.forEach((project) => {
-  const projectCard = card(project);
-
-  document.querySelector(".projects-wrapper").innerHTML += projectCard;
+const projectsContainer = document.querySelector(".projects-wrapper");
+projects.forEach((project, index) => {
+  postProject(project, projectsContainer, index);
 });
-
-scrollObserver();

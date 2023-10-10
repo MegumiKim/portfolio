@@ -1,27 +1,28 @@
 .fade-in {
   opacity: 0;
-  transition: opacity 400ms ease-in;
+  transition: opacity 500ms ease-in;
 }
 
 .fade-in.appear {
   opacity: 1;
 }
 
-/* .from-left {
-  grid-column: 2/3;
+.from-left {
   transform: translateX(-50%);
+  opacity: 0;
 }
 .from-right {
-  grid-column: 3/4;
   transform: translateX(50%);
+  opacity: 0;
 }
 
 .from-right,
 .from-left {
-  transition: transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 500ms ease-in;
 }
 
 .from-left.appear,
 .from-right.appear {
   transform: translateX(0);
-} */
+  opacity: 1;
+}

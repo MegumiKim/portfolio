@@ -1,8 +1,6 @@
 // Intersection Observer
 
 const sections = document.querySelectorAll("section");
-const header = document.querySelector("header");
-
 const faders = document.querySelectorAll(".fade-in");
 
 const observerOptions = {
@@ -28,8 +26,6 @@ export function scrollObserver() {
     faders.forEach((fader) => {
       appearOnScroll.observe(fader);
     });
-
-    shrinkOnScroll.observe(header);
   });
 }
 
@@ -37,7 +33,7 @@ const appearOptions = {
   threshold: 0.3,
   rootMargin: "0px 0px -100px 0px",
 };
-const appearOnScroll = new IntersectionObserver(function (
+export const appearOnScroll = new IntersectionObserver(function (
   entries,
   appearOnScroll
 ) {
