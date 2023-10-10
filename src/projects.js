@@ -6,7 +6,7 @@ const projects = [
     url: "https://mollify.noroff.dev/",
     repo: "https://github.com/Fermain/-mollify",
     description:
-      "An open-source project of developing a dynamic Learning Management System (LMS) with a range of features, including bookmarking, advanced search capabilities, text-to-speech functionality, and an AI-powered chatbox. My primary contributions were in enhancing the chatbox's frontend, fixing bugs, and improving the overall user experience (UX)",
+      "An open-source project of developing a dynamic learning platform with a range of features, including bookmarking, search capabilities, text-to-speech functionality, and an AI-powered chatbox. My primary contributions were in enhancing the chatbox's frontend, fixing bugs, and improving the overall user experience.",
     builtWith:
       "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite • Open AI",
   },
@@ -28,7 +28,7 @@ const projects = [
     url: "https://max-value.megumi.no",
     repo: "https://github.com/MegumiKim/maxvalue.git",
     description:
-      "An interface for an fictional online shopping platform, utilizing data from a Dummy API. This web application enables users to seamlessly browse products, perform searches, and simulate a realistic purchasing process. The primary focus of this project was to acquire practical expertise in building web applications with React and enhancing design aesthetics using TailwindCSS.",
+      "An interface for an fictional online shopping platform, utilizing data from a Dummy API. The application enables users to browse products, perform searches, and simulate a realistic purchasing process. The primary focus of this project was to acquire practical expertise in building web applications with React and enhancing design aesthetics using TailwindCSS.",
     builtWith: "React • TailwindCSS • Dummy JSON API",
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     url: "https://bid.megumi.no",
     repo: "https://github.com/MegumiKim/bid.git",
     description:
-      "Vanilla JavaScript project featuring an interactive auction platform where users can create their own listings and bid on listings created by others.",
+      "Vanilla JavaScript project featuring an interactive auction platform where users can create their own listings and bid on listings created by others with fictional currency.",
     builtWith: "JS • Bootstrap • Saas",
   },
 

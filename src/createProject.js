@@ -29,7 +29,7 @@ export const postProject = (data, container, index) => {
   // Intersection Observer
   const appearOptions = {
     threshold: 0.3,
-    rootMargin: "0px 0px -250px 0px",
+    rootMargin: "0px 0px -200px 0px",
   };
 
   // Observe an element within the 'doc'
