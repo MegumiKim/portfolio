@@ -52,16 +52,16 @@ const projects = [
     builtWith: "JS • Bootstrap • Saas",
   },
 
-  // {
-  //   category: "Social Media site",
-  //   name: "Howdy",
-  //   image: "/img/howdy_screen.jpg",
-  //   url: "https://howdy.megumi.no",
-  //   repo: "https://github.com/MegumiKim/howdy.git",
-  //   description:
-  //     "Interactive social media platform where user can create posts and react on other's posts. Test login: email: howdy@noroff.no password: 12345678 ",
-  //   builtWith: "HTML • Bootstrap • Saas • JS ",
-  // },
+  {
+    category: "Social Media site",
+    name: "LeMarche",
+    image: "/img/lemarche.jpg",
+    url: "https://lemarche.megumi.no",
+    repo: "https://github.com/MegumiKim/lemarche.git",
+    description:
+      "An interface for an fictional online shopping platform, utilizing data from a Noroff API.",
+    builtWith: "React • Styled Components",
+  },
 ];
 
 export default projects;
