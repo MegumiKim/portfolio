@@ -42,7 +42,7 @@ main {
 #about {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   text-align: start;
 }
 .about-grid {
@@ -52,7 +52,7 @@ main {
   align-items: first baseline;
 }
 
-#about p {
+.about-grid p {
   font-size: 0.8rem;
 }
 
@@ -60,7 +60,6 @@ main {
   font-size: 1rem;
   grid-column: 1/2;
   text-align: end;
-  margin-top: 1rem;
   margin: 0;
   font-family: sans-serif;
 }
@@ -73,6 +72,7 @@ li {
 
 h4 {
   font-size: 0.8rem;
+  text-decoration: underline;
 }
 /* contact */
 
@@ -92,7 +92,8 @@ h4 {
 }
 
 #about,
-#contact {
+#contact,
+#stack {
   max-width: 800px;
 }
 
