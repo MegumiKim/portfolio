@@ -29,11 +29,11 @@ export const postProject = (data, container, index) => {
   // Intersection Observer
   const appearOptions = {
     threshold: 0.3,
-    rootMargin: "0px 0px -200px 0px",
+    rootMargin: "0px 0px -200px 200px",
   };
 
   // Observe an element within the 'doc'
-  const elementToObserve = cardTitle;
+  const elementToObserve = thumbnail;
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
