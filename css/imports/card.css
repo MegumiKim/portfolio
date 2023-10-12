@@ -10,7 +10,7 @@
 }
 
 .img-thumbnail {
-  /* transition: transform 0.3s ease-in-out; */
+  transition: transform 0.3s ease-in-out;
   flex: 1;
   max-width: 700px;
 }
@@ -20,8 +20,13 @@
   text-align: right;
 }
 
-.project-title-wrap > p {
-  font-size: 0.8rem;
+.project-title-wrap {
+  display: flex;
+  gap: 0.5em;
+  align-items: start;
+}
+.project-title-wrap i {
+  font-size: 0.6rem;
 }
 
 .card-text-wrapper {

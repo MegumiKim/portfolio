@@ -10,7 +10,7 @@ export const postProject = (data, container, index) => {
 
   cardTitle.href = data.url;
   thumbnail.href = data.url;
-  cardTitle.innerText = data.name;
+  cardTitle.innerHTML = data.name;
   img.src = data.image;
   description.innerText = data.description;
   doc.querySelector(".github-project-link").href = data.repo;
