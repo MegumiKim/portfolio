@@ -11,7 +11,7 @@ main {
 }
 /* stack */
 #stack {
-  min-height: 100vh;
+  padding: 20% 0;
   width: 100vw;
   background: #fff;
   position: relative;
@@ -35,14 +35,14 @@ main {
 #welcome {
   min-height: 100vh;
   display: flex;
-  max-width: 800px;
-  margin: auto;
+  /* max-width: 800px; */
+  /* margin: auto; */
 }
 
 .welcome-wrapper {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: auto 0;
   gap: 1rem;
 }
 
@@ -52,11 +52,16 @@ main {
 }
 
 .summary {
-  margin: auto;
-  max-width: 550px;
-  text-align: center;
+  max-width: 500px;
 }
 
+.social-left-align {
+  display: flex;
+  gap: 0.5rem;
+}
+.social-left-align i {
+  font-size: 1.5rem;
+}
 /* projects */
 
 #projects {
@@ -68,6 +73,19 @@ main {
   gap: 3rem;
 }
 
+/* publication */
+#publication {
+  display: flex;
+  flex-direction: column;
+}
+#publication .card-inner {
+  margin: auto;
+}
+iframe {
+  flex: 1;
+  min-height: 300px;
+  width: 100%;
+}
 /* About */
 
 #about {
@@ -94,7 +112,6 @@ li {
 }
 
 h4 {
-  font-size: 0.8rem;
   font-weight: bold;
 }
 /* contact */
@@ -104,6 +121,9 @@ h4 {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem auto;
+}
+.social-media i {
+  font-size: 1.5rem;
 }
 
 .projects-wrapper {

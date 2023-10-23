@@ -31,7 +31,7 @@ a {
 }
 
 h1 {
-  text-align: center;
+  /* text-align: center; */
   font-size: 3rem;
   margin: 0;
   word-wrap: break-word;
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
 }
 
 h1,
@@ -78,10 +78,6 @@ section {
 .fa-brands:hover,
 .fa-square-envelope:hover {
   color: bisque;
-}
-
-.social-media i {
-  font-size: 1.5rem;
 }
 
 @media (min-width: 800px) {

@@ -82,6 +82,7 @@
   margin-left: -50vw;
   margin-right: -50vw;
   background: #fff;
+  padding: 15% 0;
 }
 
 .card:nth-child(even) * * * {
