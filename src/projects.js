@@ -22,13 +22,23 @@ const projects = [
       "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite • TheCocktail DB",
   },
   {
+    category: "Book",
+    name: "Book Journal",
+    image: "/img/bookjournal.jpg",
+    url: "https://bookjournal.megumi.no",
+    repo: "https://github.com/MegumiKim/book_share",
+    description:
+      "Full stack personal project with MERN Stack. I love books and decided to make my own book journal site where I can search/save/and note book reviews. Planning to expand the project for multiple users with authentication and review sharing functionality.",
+    builtWith: "Mongo DB • Express • React • Node.js • DaisyUI • TypeScript",
+  },
+  {
     category: "e-commerce",
     name: "Max Value",
     image: "/img/MaxValue.jpg",
     url: "https://max-value.megumi.no",
     repo: "https://github.com/MegumiKim/maxvalue.git",
     description:
-      "An interface for an fictional online shopping platform, utilizing data from a Dummy API. The application enables users to browse products, perform searches, and simulate a realistic purchasing process. The primary focus of this project was to acquire practical expertise in building web applications with React and enhancing design aesthetics using TailwindCSS.",
+      "An interface for an fictional online shopping platform, utilizing data from a Dummy API. The application enables users to browse products, perform searches, and simulate a realistic purchasing process. The primary focus of this project was to acquire practical expertise in building web applications with React.",
     builtWith: "React • TailwindCSS • Dummy JSON API",
   },
   {
@@ -38,7 +48,7 @@ const projects = [
     url: "https://cipher.megumi.no",
     repo: "https://github.com/MegumiKim/cipher.git",
     description:
-      "A personal vanilla JS project, focussed on a minimalistic user interface. The message encryption application allows users to encrypt and decrypt message on one page.",
+      "A personal vanilla JS project, focused on a minimalistic user interface. The message encryption application allows users to encrypt and decrypt message on one page.",
     builtWith: "HTML • CSS • JS",
   },
   {
@@ -52,16 +62,18 @@ const projects = [
     builtWith: "JS • Bootstrap • Saas",
   },
 
-  {
-    category: "Social Media site",
-    name: "LeMarche",
-    image: "/img/lemarche.jpg",
-    url: "https://lemarche.megumi.no",
-    repo: "https://github.com/MegumiKim/lemarche.git",
-    description:
-      "An interface for an fictional online shopping platform, utilizing data from a Noroff API.",
-    builtWith: "React • Styled Components",
-  },
+  // {
+  //   category: "Social Media site",
+  //   name: "LeMarche",
+  //   image: "/img/lemarche.jpg",
+  //   url: "https://lemarche.megumi.no",
+  //   repo: "https://github.com/MegumiKim/lemarche.git",
+  //   description:
+  //     "An interface for an fictional online shopping platform, utilizing data from a Noroff API.",
+  //   builtWith: "React • Styled Components",
+  // },
+
+  ,
 ];
 
 export default projects;
