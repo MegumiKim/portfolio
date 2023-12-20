@@ -3,6 +3,7 @@ import { cloneTemplate } from "./cloneTemplate.js";
 export const postProject = (data, container, index) => {
   const doc = cloneTemplate("card");
   const cardTitle = doc.querySelector(".card-title");
+  const siteLink = doc.querySelector(".site-link");
   const img = doc.querySelector("img");
   const thumbnail = doc.querySelector(".img-thumbnail");
   const description = doc.querySelector(".description");
@@ -10,6 +11,7 @@ export const postProject = (data, container, index) => {
 
   cardTitle.href = data.url;
   thumbnail.href = data.url;
+  siteLink.href = data.url;
   cardTitle.innerHTML = data.name;
   img.src = data.image;
   description.innerText = data.description;

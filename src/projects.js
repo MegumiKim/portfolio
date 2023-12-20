@@ -18,8 +18,7 @@ const projects = [
     repo: "https://github.com/MegumiKim/bar.git",
     description:
       "Personal Frontend project of cocktail database. Users can explore cocktail recipes, look up ingredients, and save their favorites. The primary objective of this project was to enhance my skills in using Sveltekit and TypeScript while creating a user-friendly cocktail resource.",
-    builtWith:
-      "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite • TheCocktail DB",
+    builtWith: "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite",
   },
   {
     category: "Book",
@@ -39,7 +38,7 @@ const projects = [
     repo: "https://github.com/MegumiKim/maxvalue.git",
     description:
       "An interface for an fictional online shopping platform, utilizing data from a Dummy API. The application enables users to browse products, perform searches, and simulate a realistic purchasing process. The primary focus of this project was to acquire practical expertise in building web applications with React.",
-    builtWith: "React • TailwindCSS • Dummy JSON API",
+    builtWith: "React • TailwindCSS",
   },
   {
     category: "SPA",
@@ -58,7 +57,7 @@ const projects = [
     url: "https://bid.megumi.no",
     repo: "https://github.com/MegumiKim/bid.git",
     description:
-      "Vanilla JavaScript project featuring an interactive auction platform where users can create their own listings and bid on listings created by others with fictional currency.",
+      "Vanilla JavaScript frontend project featuring an interactive auction platform where users can create their own listings and bid on listings created by others with fictional currency.",
     builtWith: "JS • Bootstrap • Saas",
   },
 

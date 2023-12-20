@@ -8,6 +8,15 @@
   flex-direction: column;
   gap: 2rem;
 }
+.card-btns {
+  display: flex;
+  gap: 1rem;
+}
+.card-btns a {
+  border: 1px solid;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
 
 .img-thumbnail {
   transition: transform 0.3s ease-in-out;
@@ -110,7 +119,9 @@
     order: 2;
   }
 
-  .github-project-link:hover {
+  .github-project-link:hover,
+  .site-link:hover {
     text-decoration: underline;
+    color: bisque;
   }
 }
