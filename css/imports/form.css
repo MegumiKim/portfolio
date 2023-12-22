@@ -2,8 +2,9 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: 500px;
   margin: auto;
+  padding: 5%;
+  max-width: 500px;
 }
 
 .input-field {
@@ -30,4 +31,5 @@ textarea:focus {
   height: 2rem;
   color: var(--color_blue);
   border-radius: 10px;
+  max-width: 200px;
 }

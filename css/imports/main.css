@@ -97,6 +97,8 @@ iframe {
 
 .about-grid p {
   font-size: 0.8rem;
+  overflow-wrap: break-word;
+  text-wrap: wrap;
 }
 
 .about-grid h3 {
