@@ -21,7 +21,7 @@ const projects = [
     builtWith: "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite",
   },
   {
-    category: "Book",
+    category: "Web App",
     name: "Book Journal",
     image: "/img/bookjournal.jpg",
     url: "https://bookjournal.megumi.no",
@@ -29,6 +29,16 @@ const projects = [
     description:
       "Full stack personal project with MERN Stack. I love books and decided to make my own book journal site where I can search/save/and note book reviews. Planning to expand the project for multiple users with authentication and review sharing functionality.",
     builtWith: "Mongo DB • Express • React • Node.js • DaisyUI • TypeScript",
+  },
+  {
+    category: "Website",
+    name: "meubelherstel",
+    image: "/img/meubel.jpg",
+    url: "https://meubelherstel.vercel.app/",
+    repo: "https://github.com/MegumiKim/meubelherstel_website",
+    description:
+      "Dynamic website for a small woodwork company featuring a minimalistic and responsive design.  The custom made Sanity CMS provide an effortless content control to the client.",
+    builtWith: "SvelteKit • TypeScript • Sanity",
   },
   {
     category: "e-commerce",
