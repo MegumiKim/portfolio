@@ -31,7 +31,6 @@ a {
 }
 
 h1 {
-  /* text-align: center; */
   font-size: 3rem;
   margin: 0;
   word-wrap: break-word;
@@ -46,7 +45,6 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  /* margin: 1rem auto; */
 }
 
 h1,
@@ -80,6 +78,19 @@ section {
   color: bisque;
 }
 
+.btn {
+  border: #fff 1px solid;
+  text-align: center;
+  padding: 1% 5%;
+  margin: 5% auto;
+  display: block;
+}
+
+.btn:hover {
+  background-color: white;
+  color: var(--color_blue);
+  border: var(--color_blue) 1px solid;
+}
 @media (min-width: 800px) {
   * {
     font-size: 22px;

@@ -107,14 +107,14 @@ iframe {
   border-bottom: #fff 1px solid;
 }
 
+.about-grid h4 {
+  color: bisque;
+}
+
 li {
   list-style: none;
   margin-left: 0;
-  margin-bottom: 0.5rem;
-}
-
-h4 {
-  font-weight: bold;
+  margin-bottom: 1rem;
 }
 /* contact */
 
@@ -152,6 +152,6 @@ h4 {
     font-size: 1rem;
     text-align: end;
     margin: 0;
-    border: none;
+    border-bottom: none;
   }
 }

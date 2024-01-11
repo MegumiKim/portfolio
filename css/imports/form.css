@@ -17,7 +17,6 @@ input,
 textarea {
   background: none;
   border: 1px white solid;
-  border-radius: 10px;
   padding: 10px;
 }
 
@@ -28,11 +27,17 @@ textarea:focus {
 
 .submit-btn {
   border: none;
+  font-size: 1rem;
   height: 2rem;
   color: var(--color_blue);
-  border-radius: 10px;
   max-width: 200px;
   background-color: white;
+}
+
+.submit-btn:hover {
+  background-color: var(--color_blue);
+  color: white;
+  border: white 1px solid;
 }
 
 @media (min-width: 800px) {
