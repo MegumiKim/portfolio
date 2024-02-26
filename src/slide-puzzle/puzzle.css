@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #5a858c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#board {
+  margin: 3rem 1rem;
+  width: 100%;
+  aspect-ratio: 1;
+  max-width: 500px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  border: 10px solid white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board > div {
+  width: calc(100% / 3 - 2px);
+  height: calc(100% / 3 - 2px);
+  border: 1px solid white;
+  background-image: url("../../img/busride.jpeg");
+  background-size: 300%;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-image 1s;
+}
+
+#btn_container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.level_btn {
+  flex-grow: 1;
+  background-color: inherit;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 5px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.level_btn:hover {
+  opacity: 0.8;
+  font-size: 1rem;
+}
+
+[class="item-1"] {
+  background-position: top left;
+}
+[class="item-2"] {
+  background-position: top center;
+}
+[class="item-3"] {
+  background-position: top right;
+}
+[class="item-4"] {
+  background-position: center left;
+}
+[class="item-5"] {
+  background-position: center center;
+}
+[class="item-6"] {
+  background-position: center right;
+}
+[class="item-7"] {
+  background-position: bottom left;
+}
+[class="item-8"] {
+  background-position: bottom center;
+}
+
+#board > [class="item-9"] {
+  background-color: white;
+  background-image: none;
+  cursor: inherit;
+}
+
+.turns {
+  display: flex;
+  /* background-color: beige; */
+  padding: 0rem 2rem;
+  margin: 1rem auto;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
