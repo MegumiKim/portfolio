@@ -1,5 +1,15 @@
 const projects = [
   {
+    category: "Website / CMS",
+    name: "Futures Lab",
+    image: "/img/futureslab.png",
+    url: "https://beta.futureslab.dev/",
+    repo: "https://github.com/Fermain/-mollify",
+    description:
+      "Schibsted Futures Lab's official website and professional documentation tool. Fully customised CMS using Sanity.",
+    builtWith: "Sveltekit • TypeScript • Sanity • Sass",
+  },
+  {
     category: "Open Source Project",
     name: "Mollify",
     image: "/img/mollify.jpg",
@@ -11,13 +21,13 @@ const projects = [
       "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite • Open AI",
   },
   {
-    category: "Website",
+    category: "Web App",
     name: "Čika Petar's",
     image: "/img/barThumb.jpg",
     url: "https://bar.megumi.no",
     repo: "https://github.com/MegumiKim/bar.git",
     description:
-      "Personal Frontend project of cocktail database. Users can explore cocktail recipes, look up ingredients, and save their favorites. The primary objective of this project was to enhance my skills in using Sveltekit and TypeScript while creating a user-friendly cocktail resource.",
+      "Personal Frontend project of cocktail receipe web app. Users can explore cocktail recipes, look up ingredients, and save their favorites. The primary objective of this project was to enhance my skills in using Sveltekit and TypeScript while creating a user-friendly cocktail resource.",
     builtWith: "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite",
   },
   {
@@ -27,8 +37,9 @@ const projects = [
     url: "https://bookjournal.megumi.no",
     repo: "https://github.com/MegumiKim/book_share",
     description:
-      "Full stack personal project with MERN Stack. I love books and decided to make my own book journal site where I can search/save/and note book reviews. Planning to expand the project for multiple users with authentication and review sharing functionality.",
-    builtWith: "Mongo DB • Express • React • Node.js • DaisyUI • TypeScript",
+      "Full stack personal project with PERN Stack powered by Google Books API. The web application allows users to create accounts, explore books, maintain reading list and post reviews and get recommendations. The project was in depth practice of both frontend and backend tools, including database integration, API creation, and cloud deployment on AWS.",
+    builtWith:
+      "Postgres • Express • React • Node.js • DaisyUI • TypeScript • AWS",
   },
   {
     category: "Website",
@@ -41,7 +52,7 @@ const projects = [
     builtWith: "SvelteKit • TypeScript • Sanity",
   },
   {
-    category: "e-commerce",
+    category: "Web App",
     name: "Max Value",
     image: "/img/MaxValue.jpg",
     url: "https://max-value.megumi.no",
