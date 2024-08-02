@@ -4,7 +4,7 @@ const projects = [
     name: "Futures Lab",
     image: "/img/futureslab.png",
     url: "https://beta.futureslab.dev/",
-    repo: "https://github.com/Fermain/-mollify",
+    repo: "https://github.com/MegumiKim/FuturesLab",
     description:
       "Schibsted Futures Lab's official website and professional documentation tool. Fully customised CMS using Sanity.",
     builtWith: "Sveltekit • TypeScript • Sanity • Sass",
