@@ -20,6 +20,18 @@ const projects = [
     builtWith: "Sveltekit • TypeScript • Sanity CMS • Sass",
   },
   {
+    category: "Web App",
+    name: "Book Journal",
+    image: "/img/bookjournal.jpg",
+    url: "https://book-app-delta-eight.vercel.app/",
+    repo: "https://github.com/MegumiKim/book_share",
+    description:
+      "Full stack personal project with PERN Stack powered by Google Books API. Currently disconnected from the server and only search functions are available.",
+    // "Full stack personal project with PERN Stack powered by Google Books API. The web application allows users to create accounts, explore books, maintain reading list and post reviews and get recommendations. The project was in depth practice of both frontend and backend tools, including database integration, API creation, and cloud deployment on AWS.",
+    builtWith:
+      "Postgres • Express • React • Node.js • DaisyUI • TypeScript • AWS",
+  },
+  {
     category: "SPA",
     name: "Cipher",
     image: "/img/cipher.jpg",
@@ -39,17 +51,7 @@ const projects = [
       "Personal Frontend project of cocktail recipe web app. Users can explore cocktail recipes, look up ingredients, and save their favorites. The primary objective of this project was to enhance my skills in using Sveltekit and TypeScript while creating a user-friendly cocktail resource.",
     builtWith: "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite",
   },
-  {
-    category: "Open Source Project",
-    name: "Mollify",
-    image: "/img/mollify.jpg",
-    url: "https://mollify.noroff.dev/",
-    repo: "https://github.com/Fermain/-mollify",
-    description:
-      "An open-source project of developing a dynamic learning platform with a range of features, including bookmarking, search capabilities, text-to-speech functionality, and an AI-powered chatbox. My primary contributions were in enhancing the chatbox's frontend, fixing bugs, and improving the overall user experience.",
-    builtWith:
-      "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite • Open AI",
-  },
+
   {
     category: "Website",
     name: "meubelherstel",
@@ -70,29 +72,27 @@ const projects = [
       "An interface for an fictional online shopping platform, utilizing data from a Dummy API. The application enables users to browse products, perform searches, and simulate a realistic purchasing process. The primary focus of this project was to acquire practical expertise in building web applications with React.",
     builtWith: "React • TailwindCSS",
   },
-
-  // {
-  //   category: "Web App",
-  //   name: "Book Journal",
-  //   image: "/img/bookjournal.jpg",
-  //   url: "https://bookjournal.megumi.no",
-  //   repo: "https://github.com/MegumiKim/book_share",
-  //   description:
-  //     "Full stack personal project with PERN Stack powered by Google Books API. The web application allows users to create accounts, explore books, maintain reading list and post reviews and get recommendations. The project was in depth practice of both frontend and backend tools, including database integration, API creation, and cloud deployment on AWS.",
-  //   builtWith:
-  //     "Postgres • Express • React • Node.js • DaisyUI • TypeScript • AWS",
-  // },
-
-  // {
-  //   category: "auction site",
-  //   name: "bid",
-  //   image: "/img/bid_screen.png",
-  //   url: "https://bid.megumi.no",
-  //   repo: "https://github.com/MegumiKim/bid.git",
-  //   description:
-  //     "Vanilla JavaScript frontend project featuring an interactive auction platform where users can create their own listings and bid on listings created by others with fictional currency.",
-  //   builtWith: "JS • Bootstrap • Saas",
-  // },
+  {
+    category: "Open Source Project",
+    name: "Mollify",
+    image: "/img/mollify.jpg",
+    url: "https://mollify.noroff.dev/",
+    repo: "https://github.com/Fermain/-mollify",
+    description:
+      "An open-source project of developing a dynamic learning platform with a range of features, including bookmarking, search capabilities, text-to-speech functionality, and an AI-powered chatbox. My primary contributions were in enhancing the chatbox's frontend, fixing bugs, and improving the overall user experience.",
+    builtWith:
+      "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite • Open AI",
+  },
+  {
+    category: "auction site",
+    name: "bid",
+    image: "/img/bid_screen.png",
+    url: "https://bid-sable.vercel.app/",
+    repo: "https://github.com/MegumiKim/bid.git",
+    description:
+      "Vanilla JavaScript School project featuring an interactive auction platform where users can create their own listings and bid on listings created by others with fictional currency.",
+    builtWith: "JS • Bootstrap • Saas",
+  },
 
   // {
   //   category: "Social Media site",
