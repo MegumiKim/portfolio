@@ -33,16 +33,20 @@
     <main>
       <section id="welcome">
         <div class="welcome-wrapper">
-          <h1>Megumi Kimura / <br />Frontend Developer</h1>
+          <div class="h1-wrapper">
+            <sub>Frontend Developer</sub>
+            <h1>Megumi Kimura</h1>
+          </div>
 
           <p class="summary">
             Hi! I'm Megumi, frontend developer in Print Solution team at
             Schibsted, where I bring design specs to life and help streamline
-            print automation for the newsrooms. I'm a friendly geek who loves
-            collaborating and learning with others. This portfolio showcases
-            personal projects I’ve built during my free time and studies —
-            experiments, ideas, and tools that reflect my growth and curiosity
-            as a developer.
+            print automation for the newsrooms.
+          </p>
+          <p class="summary">
+            This portfolio showcases personal projects I’ve built during my free
+            time and studies — experiments, ideas, and tools that reflect my
+            growth and curiosity as a developer.
           </p>
           <div class="social-left-align">
             <a
@@ -126,7 +130,24 @@
         </div>
         <p>kimuramegumi@gmail.com</p>
 
-        <form
+        <form action="https://formspree.io/f/manpapbp" method="POST">
+          <div class="input-field">
+            <label for="email"> Your email: </label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="input-field">
+            <label for="message"> Your message: </label>
+            <textarea
+              name="message"
+              id="message"
+              type="text"
+              rows="5"
+            ></textarea>
+          </div>
+          <!-- your other form fields go here -->
+          <button type="submit" class="submit-btn">Send</button>
+        </form>
+        <!-- <form
           action="https://formsubmit.co/kimuramegumi@gmail.com"
           method="POST"
         >
@@ -155,7 +176,7 @@
           />
           <input type="hidden" name="_captcha" value="false" />
           <button type="submit" class="submit-btn">Send</button>
-        </form>
+        </form> -->
       </section>
     </main>
     <footer>

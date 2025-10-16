@@ -44,6 +44,7 @@ main {
   flex-direction: column;
   margin: auto 0;
   gap: 1rem;
+  margin-top: 3rem;
 }
 
 .title {
@@ -52,7 +53,7 @@ main {
 }
 
 .summary {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .social-left-align {
@@ -141,6 +142,9 @@ li {
     display: flex;
   }
 
+  sub {
+    font-size: 1.5rem;
+  }
   .about-grid {
     display: grid;
     grid-template-columns: repeat(1, 200px 1fr);

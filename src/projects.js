@@ -30,6 +30,16 @@ const projects = [
     builtWith: "HTML • CSS • JS",
   },
   {
+    category: "Web App",
+    name: "Čika Petar's",
+    image: "/img/barThumb.jpg",
+    url: "https://cica-petars.vercel.app/",
+    repo: "https://github.com/MegumiKim/bar.git",
+    description:
+      "Personal Frontend project of cocktail recipe web app. Users can explore cocktail recipes, look up ingredients, and save their favorites. The primary objective of this project was to enhance my skills in using Sveltekit and TypeScript while creating a user-friendly cocktail resource.",
+    builtWith: "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite",
+  },
+  {
     category: "Open Source Project",
     name: "Mollify",
     image: "/img/mollify.jpg",
@@ -60,16 +70,7 @@ const projects = [
       "An interface for an fictional online shopping platform, utilizing data from a Dummy API. The application enables users to browse products, perform searches, and simulate a realistic purchasing process. The primary focus of this project was to acquire practical expertise in building web applications with React.",
     builtWith: "React • TailwindCSS",
   },
-  // {
-  //   category: "Web App",
-  //   name: "Čika Petar's",
-  //   image: "/img/barThumb.jpg",
-  //   url: "https://bar.megumi.no",
-  //   repo: "https://github.com/MegumiKim/bar.git",
-  //   description:
-  //     "Personal Frontend project of cocktail receipe web app. Users can explore cocktail recipes, look up ingredients, and save their favorites. The primary objective of this project was to enhance my skills in using Sveltekit and TypeScript while creating a user-friendly cocktail resource.",
-  //   builtWith: "Sveltekit • TypeScript • Tailwind • Skeleton UI • Vite",
-  // },
+
   // {
   //   category: "Web App",
   //   name: "Book Journal",
@@ -103,6 +104,7 @@ const projects = [
   //     "An interface for an fictional online shopping platform, utilizing data from a Noroff API.",
   //   builtWith: "React • Styled Components",
   // },
+
   ,
 ];
 

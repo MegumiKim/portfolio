@@ -10,8 +10,8 @@ header {
 .header-inner {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
-  max-width: 1200px;
+  /* padding: 0.5rem; */
+  /* max-width: 1200px; */
   margin: auto;
 }
 .logo {
